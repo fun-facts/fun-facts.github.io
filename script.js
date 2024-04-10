@@ -63,4 +63,9 @@ function getRandomFact() {
 document.addEventListener("DOMContentLoaded", function() {
   const factElement = document.getElementById("fact");
   factElement.textContent = getRandomFact();
+  // Get current year and display it
+  const currentYearElement = document.getElementById("currentYear");
+  const currentYear = new Date().getFullYear();
+  currentYearElement.textContent = `© ${currentYear}`;
+});
 });
