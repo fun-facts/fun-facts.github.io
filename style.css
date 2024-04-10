@@ -1,4 +1,8 @@
-/* No unnecessary body styles needed here */
+body {
+  font-family: [Your desired font name here], sans-serif; /* Specify your preferred font first, fallback to sans-serif */
+  margin: 0;
+  padding: 20px;
+}
 
 .container {
   text-align: center;
