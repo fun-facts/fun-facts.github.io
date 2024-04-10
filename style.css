@@ -15,7 +15,7 @@ h1 {
 }
 
 #currentYear {  /* Styles for the year element */
-  text-align: bottom;
+  vertical-align: text-bottom;
   font-size: 12px;  /* Adjust font size as needed */
   margin-top: 20px;  /* Add some margin above the year */
 }
