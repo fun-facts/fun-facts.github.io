@@ -4,11 +4,6 @@
   text-align: center;
 }
 
-.icon {
-  font-size: 48px; /* Adjust font size as needed */
-  margin-bottom: 10px; /* Add some margin below the icon */
-}
-
 h1 {
   text-align: center;
 }
