@@ -1,7 +1,12 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 20px;
+/* No unnecessary body styles needed here */
+
+.container {
+  text-align: center;
+}
+
+.icon {
+  font-size: 48px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Add some margin below the icon */
 }
 
 h1 {
