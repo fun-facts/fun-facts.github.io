@@ -62,6 +62,6 @@ function getRandomFact() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const factElement = document.getElementById("fact");
+  const factElement = document.getElementById("Funfacts");
   factElement.textContent = getRandomFact();
 });
