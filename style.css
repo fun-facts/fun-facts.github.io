@@ -1,7 +1,11 @@
-body {
-  font-family: honk, sans-serif; /* Specify your preferred font first, fallback to sans-serif */
-  margin: 0;
-  padding: 20px;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .container {
