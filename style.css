@@ -19,3 +19,9 @@ h1 {
   font-size: 12px;  /* Adjust font size as needed */
   margin-top: 20px;  /* Add some margin above the year */
 }
+
+.copyright {
+  text-align: center;
+  font-size: 12px; /* Adjust font size as needed */
+  margin-top: 20px; /* Add some margin from the top */
+}
