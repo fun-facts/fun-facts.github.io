@@ -6,6 +6,7 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  font-display: swap; /* Or use 'fallback' if you prefer a fallback font initially */
 }
 
 .container {
