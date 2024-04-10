@@ -20,7 +20,6 @@ const funFacts = [
   "The tiny pocket in jeans was designed to store pocket watches.",
   "People once ate arsenic to improve their skin.",
   "The Terminator script was sold for $1.",
-  "Penicillin was first called mold juice.”,
   "A fear of long words is called Hippopotomonstrosesquippedaliophobia (Who ever came up with this is a monster).",
   "The quickest commercial flight in the world is in Scotland.",
   "The first commercial passenger flight lasted only 23 minutes.",
