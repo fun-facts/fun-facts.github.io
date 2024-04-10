@@ -1,8 +1,8 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 800
 
-.dosis-<uniquifier> {
-  font-family: "Dosis", sans-serif;
+.dosis-alpha {
+  font-family: Dosis, sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
