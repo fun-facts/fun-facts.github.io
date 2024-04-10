@@ -67,4 +67,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const currentYearElement = document.getElementById("currentYear");
   const currentYear = new Date().getFullYear();
   currentYearElement.textContent = `© ${currentYear}`;
+    
+  // Check if font is loaded (example using a timeout)
+  const checkFontLoaded = setTimeout(function() {
+    const isFontLoaded = document.fonts.check('400 Dosis'); // Adjust weight if needed
+    if (isFontLoaded) {
+      // Font is loaded, apply styles as needed
+      factElement.classList.add('dosis-alpha'); // Assuming your font class is 'dosis-alpha'
+    } else {
+      // Font loading failed or taking too long, handle fallback (optional)
+      console.error('Dosis font loading failed.');
+    }
+  }, 1000); // Check after 1 second, adjust timeout as needed
 });
