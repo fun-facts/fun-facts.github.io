@@ -54,8 +54,6 @@ const funFacts = [
   "Besides water, tea is the most popular beverage worldwide."
   "Your heart beats an average of 100,000 times each day."
  "The first animals to travel to outer space were fruit flies."
-
-
 ];
 
 function getRandomFact() {
