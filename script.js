@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const dropDownBtn = document.querySelector('.dropbtn');
 const dropdownContent = document.querySelector('.dropdown-content');
-
 dropDownBtn.addEventListener('click', function() {
-  dropdownContent.classList.toggle('show');
+  dropdownContent.classList.toggle('show')
 });
