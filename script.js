@@ -58,20 +58,4 @@ const funFacts = [
 function getRandomFact() {
   const randomIndex = Math.floor(Math.random() * funFacts.length);
   return funFacts[randomIndex];
-}
-
-document.addEventListener("DOMContentLoaded", function() {
-  const factElement = document.getElementById("fact");
-  factElement.textContent = getRandomFact();
-  // Get current year and display it
-  const currentYearElement = document.getElementById("2024");
-  const currentYear = new Date().getFullYear();
-  currentYearElement.textContent = `© ${currentYear}`;
-
-  const dropDownBtn = document.querySelector('.dropbtn');
-const dropdownContent = document.querySelector('.dropdown-content');
-
-dropDownBtn.addEventListener('click', function() {
-  dropdownContent.classList.toggle('show');
-  
-});
+};
