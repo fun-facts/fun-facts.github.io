@@ -33,7 +33,8 @@ h1 {
   font-weight: 600;
   font-style: normal;
   font-display: swap; /* Or use 'fallback' if you prefer a fallback font initially */
-
+}
+  
   .dropdown {
   position: relative;
   display: inline-block;
@@ -42,10 +43,19 @@ h1 {
 .dropbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 16px;
+  padding: 10px 16px; /* Adjust padding to fit three lines */
   font-size: 16px;
   border: none;
   cursor: pointer;
+  display: flex; /* Allow stacking content vertically */
+  align-items: center; /* Center content vertically */
+}
+
+.dropbtn::after {
+  /* Style for the down arrow indicator */
+  content: "\u25BC"; /* Down arrow character */
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 .dropdown-content {
@@ -67,4 +77,3 @@ h1 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
