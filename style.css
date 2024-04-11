@@ -16,7 +16,7 @@ h1 {
 }
 
 #currentYear {  /* Styles for the year element */
-  vertical-align: text-bottom;
+  vertical-align: bottom;
   font-size: 12px;  /* Adjust font size as needed */
   margin-top: 20px;  /* Add some margin above the year */
 }
@@ -30,6 +30,6 @@ h1 {
 .dosis-alpha {
   font-family: Dosis, sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap; /* Or use 'fallback' if you prefer a fallback font initially */
