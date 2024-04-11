@@ -15,18 +15,6 @@ h1 {
   margin-top: 20px;
 }
 
-#currentYear {  /* Styles for the year element */
-  vertical-align: bottom;
-  font-size: 12px;  /* Adjust font size as needed */
-  margin-top: 20px;  /* Add some margin above the year */
-}
-
-.copyright {
-  vertical-align: text-bottom;
-  font-size: 12px; /* Adjust font size as needed */
-  margin-top: 20px; /* Add some margin from the top */
-}
-
 .dosis-alpha {
   font-family: Dosis, sans-serif;
   font-optical-sizing: auto;
