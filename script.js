@@ -67,4 +67,10 @@ document.addEventListener("DOMContentLoaded", function() {
   const currentYearElement = document.getElementById("currentYear");
   const currentYear = new Date().getFullYear();
   currentYearElement.textContent = `© ${currentYear}`;
+
+  const dropDownBtn = document.querySelector('.dropbtn');
+const dropdownContent = document.querySelector('.dropdown-content');
+
+dropDownBtn.addEventListener('click', function() {
+  dropdownContent.classList.toggle('show');
 });
