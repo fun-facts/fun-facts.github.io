@@ -53,7 +53,7 @@ h1 {
 
 .dropbtn::after {
   /* Style for the down arrow indicator */
-  content: "\u25BC"; /* Down arrow character */
+  content: "\25BC"; /* Down arrow character */
   font-size: 12px;
   margin-left: 5px;
 }
