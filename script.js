@@ -73,5 +73,4 @@ const dropdownContent = document.querySelector('.dropdown-content');
 
 dropDownBtn.addEventListener('click', function() {
   dropdownContent.classList.toggle('show');
-
 }); 
