@@ -1,4 +1,4 @@
-const funylacts = [
+const funFacts = [
   "A group of owls is called a parliament.",
   "The population of the earth is about 8.1 billion people.",
   "The world's quietest room is located at Microsoft and is so quiet you can hear your heartbeat.",
@@ -55,27 +55,14 @@ const funylacts = [
  "The first animals to travel to outer space were fruit flies.",
 ];
 
-// Array of random facts
-const funfacts = [
-  "Fact 1",
-  "Fact 2",
-  "Fact 3",
-  "Fact 4",
-  "Fact 4",
-  "Fact 6",
-  "Fact 7",
-  "Fact 8",
-  "Fact 9",
-  "Fact 10",
-  "Fact 11",
-];
-
-function getRandomlact() {
-  const randomIndex = Math.floor(Math.random() * funylacts.length);
-  return funylacts[randomIndex];
+// Function to get a random fact
+function getRandomFact() {
+  const randomIndex = Math.floor(Math.random() * funFacts.length);
+  return funFacts[randomIndex];
 }
 
+// Event listener for DOMContentLoaded
 document.addEventListener("DOMContentLoaded", function() {
-  const lactElement = document.getElementById("displayedlact");
-  lactElement.textContent = getRandomlact();
+  const factElement = document.getElementById("displayedFact"); // Corrected element ID
+  factElement.textContent = getRandomFact();
 });
