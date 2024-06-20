@@ -20,7 +20,7 @@ const funFacts = [
   "The tiny pocket in jeans was designed to store pocket watches.",
   "People once ate arsenic to improve their skin.",
   "The Terminator script was sold for $1.",
-  "A fear of long words is called Hippopotomonstrosesquippedaliophobia (Who ever came up with this is a monster).",
+  "A fear of long words is called Hippopotomonstrosesquippedaliophobia (Whoever came up with this is a monster).",
   "The quickest commercial flight in the world is in Scotland.",
   "The first commercial passenger flight lasted only 23 minutes.",
   "No number before 1,000 contains the letter A.",
@@ -56,7 +56,7 @@ const funFacts = [
 ];
 
 // Array of random facts
-const funFacts = [
+const funfacts = [
   "Fact 1",
   "Fact 2",
   "Fact 3",
@@ -76,6 +76,6 @@ function getRandomFact() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const factElement = document.getElementById("displayedFact");
-  factElement.textContent = getRandomFact();
+  const factElement = document.getElementById("displayedfact");
+  factElement.textContent = getRandomfact();
 });
