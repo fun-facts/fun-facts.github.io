@@ -55,12 +55,13 @@ const funFacts = [
  "The first animals to travel to outer space were fruit flies.",
 ];
 
+```javascript
 function getRandomFact() {
   const randomIndex = Math.floor(Math.random() * funFacts.length);
   return funFacts[randomIndex];
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const factElement = document.getElementById("displayedFact");
+  const factElement = document.getElementById("fact");
   factElement.textContent = getRandomFact();
 });
