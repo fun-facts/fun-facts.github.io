@@ -57,10 +57,12 @@ const funFacts = [
 
 function getRandomFact() {
   const randomIndex = Math.floor(Math.random() * funFacts.length);
+  console.log("Random index:", randomIndex); // Log the random index
   return funFacts[randomIndex];
 }
 
 document.addEventListener("DOMContentLoaded", function() {
   const factElement = document.getElementById("displayedFact");
+  console.log("Fact element:", factElement); // Log the element
   factElement.textContent = getRandomFact();
 });
