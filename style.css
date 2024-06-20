@@ -31,7 +31,9 @@ h1 {
 
 .dropdown {
   position: relative;
-} /* Removed display: inline-block; */
+  display: inline-block;
+}
+}
 
 .dropbtn {
   background-color: #4CAF50;
