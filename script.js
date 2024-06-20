@@ -70,12 +70,12 @@ const funfacts = [
   "Fact 11",
 ];
 
-function getRandomFact() {
-  const randomIndex = Math.floor(Math.random() * funFacts.length);
-  return funFacts[randomIndex];
+function getRandomlact() {
+  const randomIndex = Math.floor(Math.random() * funylacts.length);
+  return funylacts[randomIndex];
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const factElement = document.getElementById("displayedfact");
-  factElement.textContent = getRandomfact();
+  const lactElement = document.getElementById("displayedlact");
+  lactElement.textContent = getRandomlact();
 });
