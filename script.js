@@ -1,0 +1,81 @@
+const funFacts = [
+  "A group of owls is called a parliament.",
+  "The population of the earth is about 8.1 billion people.",
+  "The world's quietest room is located at Microsoft and is so quiet you can hear your heartbeat.",
+  "Cats have 32 muscles in each ear.",
+  "The world's hottest chili pepper is the Carolina Reaper.",
+  "Australia is wider than the moon.",
+  "Venus is the only planet to spin clockwise.",
+  "Allodoxaphobia is the fear of other people’s opinions.",
+  "Human teeth are the only part of the body that cannot heal themselves.",
+  "Competitive art used to be an Olympic sport.",
+  "The first person processed at Ellis Island was a 15-year-old girl from Ireland.",
+  "Google Images was created after Jennifer Lopez wore the green dress at the 2000 Grammys.",
+  "Lemons float, but limes sink.",
+  "The Eiffel Tower was originally made for Barcelona.",
+  "It would take 19 minutes to fall to the center of the Earth.",
+  "The real name for a hashtag is an octothorpe.",
+  "Neil Armstrong’s hair was sold in 2004 for $3,000.",
+  "The longest English word is 189,819 letters long.",
+  "The tiny pocket in jeans was designed to store pocket watches.",
+  "People once ate arsenic to improve their skin.",
+  "The Terminator script was sold for $1.",
+  "A fear of long words is called Hippopotomonstrosesquippedaliophobia (Who ever came up with this is a monster).",
+  "The quickest commercial flight in the world is in Scotland.",
+  "The first commercial passenger flight lasted only 23 minutes.",
+  "No number before 1,000 contains the letter A.",
+  "There were active volcanoes on the moon when dinosaurs were alive.",
+  "Sudan has more pyramids than any country in the world.",
+  "The circulatory system is more than 60,000 miles long.",
+  "The Pope can’t be an organ donor.",
+  "The world’s longest concert lasted 453 hours.",
+  "It’s impossible to hum while holding your nose.",
+  "Africa is the only continent in all four hemispheres.",
+  "All mammals get goosebumps.",
+  "Japan has one vending machine for every 40 people.",
+  "McDonald’s once made bubblegum-flavored broccoli.",
+  "Finland has more saunas than cars.",
+  "The longest time someone has spent holding their breath underwater is 24 minutes and 37 seconds.",
+  "Frida Kahlo painted 55 self-portraits.",
+  "Avocados are actually fruits, not vegetables.",
+  "NFL Super Bowl referees also get Super Bowl rings.",
+  "It’s illegal to own only one guinea pig in Switzerland.",
+  "Only four countries in the world have national anthems with no lyrics.",
+  "The letter “Q” doesn’t appear in any American state’s name.",
+  "Walt Disney currently holds the most Academy Awards at a lifetime total of 26.",
+  "The average cloud weighs over one million pounds.",
+  "Wearing a necktie could reduce blood flow to your brain by up to 7.5 percent.",
+  "Animals can also be allergic to humans.",
+  "Finland has ranked as the happiest country in the world for 7 years straight.",
+  "Bottlenose dolphins are the only other species to have names for themselves.",
+  "Your brain alone burns around 400 to 500 calories each day.",
+  "Approximately 10% of people are left-handed.",
+  "Besides water, tea is the most popular beverage worldwide.",
+  "Your heart beats an average of 100,000 times each day.",
+ "The first animals to travel to outer space were fruit flies.",
+];
+
+// Array of random facts
+const funFacts = [
+  "Fact 1",
+  "Fact 2",
+  "Fact 3",
+  "Fact 4",
+  "Fact 4",
+  "Fact 6",
+  "Fact 7",
+  "Fact 8",
+  "Fact 9",
+  "Fact 10",
+  "Fact 11",
+];
+
+function getRandomFact() {
+  const randomIndex = Math.floor(Math.random() * funFacts.length);
+  return funFacts[randomIndex];
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const factElement = document.getElementById("displayedFact");
+  factElement.textContent = getRandomFact();
+});
