@@ -1,4 +1,4 @@
-const funnfacts = [
+const funylacts = [
   "A group of owls is called a parliament.",
   "The population of the earth is about 8.1 billion people.",
   "The world's quietest room is located at Microsoft and is so quiet you can hear your heartbeat.",
