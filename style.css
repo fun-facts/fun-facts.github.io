@@ -6,6 +6,8 @@ body {
   background-size: contain;
   margin: 0;
   font-family: sans-serif; /* Basic font for the body (optional) */
+  height: 100vh; /* Set body height to viewport height */
+  position: relative; /* Needed for absolute positioning */
 }
 
 .container {
