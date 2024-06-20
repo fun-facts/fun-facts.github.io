@@ -1,6 +1,6 @@
 body {
   background-color: #f5f5f5; /* Light gray background */
-  background-image: url("https://github.com/fun-facts/fun-facts.github.io/blob/main/giphy.gif"); /* Replace with your image URL */
+  background-image: URL("https://i.gifer.com/4Jo1.gif"); /* Replace with your image URL */
   background-repeat: repeat;
   background-position: center;
   margin: 0;
