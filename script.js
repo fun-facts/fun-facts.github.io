@@ -58,8 +58,9 @@ const funFacts = [
 function getRandomFact() {
   const randomIndex = Math.floor(Math.random() * funFacts.length);
   return funFacts[randomIndex];
-  
-  document.addEventListener("DOMContentLoaded", function() {
-    const factElement = document.getElementById("fact");
-    factElement.textContent = getRandomFact();
-  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const factElement = document.getElementById("displayedFact"); // Use the new id
+  factElement.textContent = getRandomFact();
+});
