@@ -19,6 +19,10 @@ h1 {
   font-size: 2em; /* Adjust heading size as needed */
 }
 
+a {
+  text-decoration: none;
+}
+
 #fact {
   font-family: Dosis, sans-serif; /* Assuming Dosis for displayed facts */
   font-size: 1.5em;  /* Adjust fact size as needed */
