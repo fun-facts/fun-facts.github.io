@@ -100,14 +100,20 @@ const factElement = document.getElementById("fact");
 const reloadButton = document.getElementById("reloadButton");
 
 function showRandomFact() {
-  const randomIndex = Math.floor(Math.math.random() * funFacts.length);
+  const randomIndex = Math.floor(Math.random() * funFacts.length);
   const randomFact = funFacts[randomIndex];
   factElement.textContent = randomFact;
 }
 
 showRandomFact(); // Display a random fact on page load
 
+// Option 1: Using showRandomFact function
 reloadButton.addEventListener("click", showRandomFact);
+
+// Option 2: Using location.reload()
+// reloadButton.addEventListener("click", function() {
+//   window.location.reload();
+// });
   </script>
 </body>
 </html>
