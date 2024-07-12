@@ -107,13 +107,10 @@ function showRandomFact() {
 
 showRandomFact(); // Display a random fact on page load
 
-// Option 1: Using showRandomFact function
-reloadButton.addEventListener("click", showRandomFact);
-
 // Option 2: Using location.reload()
-// reloadButton.addEventListener("click", function() {
-//   window.location.reload();
-// });
+ reloadButton.addEventListener("click", function() {
+ window.location.reload();
+ });
   </script>
 </body>
 </html>
