@@ -34,8 +34,9 @@
 </head>
 <body>
   <div class="container">  <h1>Fun Facts</h1>
-
-    <p id="displayedFact"></p> </div>
+  <p id="displayedFact"></p> 
+  <button id="reloadButton">New Fun Fact</button>
+  </div>
 
   <script>
     const funFacts = [
@@ -95,15 +96,18 @@
   "The first animals to travel to outer space were fruit flies.",
     ];
 
-    function getRandomFact() {
-      const randomIndex = Math.floor(Math.random() * funFacts.length);
-      return funFacts[randomIndex];
-    }
+const factElement = document.getElementById("fact");
+const reloadButton = document.getElementById("reloadButton");
 
-    document.addEventListener("DOMContentLoaded", function() {
-      const factElement = document.getElementById("displayedFact");
-      factElement.textContent = getRandomFact();
-    });
+function showRandomFact() {
+  const randomIndex = Math.floor(Math.math.random() * funFacts.length);
+  const randomFact = funFacts[randomIndex];
+  factElement.textContent = randomFact;
+}
+
+showRandomFact(); // Display a random fact on page load
+
+reloadButton.addEventListener("click", showRandomFact);
   </script>
 </body>
 </html>
