@@ -20,8 +20,11 @@ h1 {
 }
 
 a {
+  font-family: Dosis, sans-serif;
   text-decoration: none;
-  text-align: right;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 
 #fact {
